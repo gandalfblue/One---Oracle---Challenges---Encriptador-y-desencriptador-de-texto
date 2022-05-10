@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/logo_alura.png" type="image/x-icon">
+    <script src="./js/scripts.js"></script>
+    <title>Encriptador | Challenge 1 | Oracle</title>
+</head>
+
+<body>
+    <main>
+        <h1>Challenge Oracle One Encriptador y desencriptador de texto</h1>
+        <header>
+            <img src="./images/logo_alura.png" alt="" class="logo">
+        </header>
+        <section class="contenedor">
+            <div class="formulario">
+                <textarea id="form__cifrar" placeholder="ingrese el texto aqui" autofocus
+                    class="text__ingreso"></textarea>
+                <div class="contenedor__advertencia">
+                    <img src="https://api.iconify.design/carbon/warning-filled.svg?color=%23495057&width=25&height=25"
+                        alt="">
+                    <p class="advertencia">
+                        Solomente letras minúsculas y sin acentos
+                    </p>
+                </div>
+                <fieldset class="botones">
+                    <button class="encriptar" onclick="encriptar ()">Encriptar</button>
+                    <button class="desencriptar" onclick="desencriptar ()">Desencriptar</button>
+                </fieldset>
+            </div>
+            <div class="ingresa__mensaje">
+                <img src="./images/muñeco.png" alt="" class="muñeco" id="img__der">
+                <p class="texto__encontrado" id="ninguno">
+                    No se encontro ningun mensaje
+                </p>
+                <p class="texto__ingresa" name="" id="entrega" cols="30" rows="10">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button class="copiar" id="copy" onclick="copiar ()">Copiar</button>
+            </div>
+        </section>
+        <footer>
+            <p class="texto_autor " >Developed by Andrés Felipe Lozada A.</p>
+            <div class="contenedor__redes">
+                <a href="https://www.linkedin.com/in/andresfelipelozadaandrade/"
+                    target="_blank" class="redes">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Jhony8691" target="_blank" class="redes">
+                    <img src="https://api.iconify.design/bxl/github.svg?color=black&width=30&height=30" alt="">
+                </a>
+            </div>
+        </footer>
+</body>
+
+</html>
